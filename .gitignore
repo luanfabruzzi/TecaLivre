@@ -1,0 +1,28 @@
+# .NET
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Node
+**/node_modules/
+**/dist/
+*.tsbuildinfo
+*.log
+
+# Bancos e dados locais
+*.db
+*.db-shm
+*.db-wal
+backend/data/*
+!backend/data/.gitkeep
+
+# Ambiente e IDE
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
